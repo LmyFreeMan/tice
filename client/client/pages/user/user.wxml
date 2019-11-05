@@ -1,0 +1,28 @@
+<view class='dis' id="身高" bindtap='tap'>
+<button  >身高</button>
+</view>
+<view class='dis' id="体重" bindtap='tap'>
+<button>体重</button>
+</view>
+
+<view class='dis' id="肺活量" bindtap='tap'> 
+<button >肺活量</button>
+</view>
+<view class='dis' id="体前屈" bindtap='tap'>
+<button>体前屈</button>
+</view>
+<view class='dis' id="仰卧起坐" bindtap='tap'>
+<button>仰卧起坐</button>
+</view>
+<view class='dis' id="引体向上" bindtap='tap'>
+<button class='dis'>引体向上</button>
+</view>
+<view class='dis' id="立定跳远" bindtap='tap'>
+<button >立定跳远</button>
+</view><view class='dis' id="50米" bindtap='tap'>
+<button>50米</button>
+</view><view class='dis' id="800米" bindtap='tap'>
+<button>800米</button>
+</view><view class='dis' id="1000米"  bindtap='tap'>
+<button>1000米</button>
+</view>

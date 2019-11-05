@@ -1,0 +1,31 @@
+  {
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/user/user",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#B0C4DE",
+    "navigationBarTitleText": "Wafer Quick Start",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "录入中心",
+        "iconPath": "images/document.png",
+        "selectedIconPath": "images/document.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "记录中心",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+<view>
+<view class="write">体能测试成绩录入</view>
+
+<view class="containner">
+ <picker bindchange="bindPickerChangeTime" value="{{showtime}}" range="{{time}}" name="group" class='pick0'>
+    <view class="picker0">
+    <view><text     decode="{{true}}" space="{{true}}">时间 ：{{showtime}}</text></view>
+ 
+    </view>
+  </picker>
+ <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" name="group" class='pick0'>
+    <view class="picker0">
+    <view><text  bindtap='typeclick' data-ytpe="{{showstudent['number']}}"     decode="{{true}}" space="{{true}}">组别 ：{{index}}&nbsp;&nbsp;序号 ：{{showstudent['number']}} </text></view>
+ 
+    </view>
+  </picker>
+
+<form bindsubmit="formSubmit">
+ <picker bindchange="bindPickerChangenew" value="{{showstudent['schoolnum']}}" range="{{arr}}" name="student" class='pack1' >
+    <view class="picker">
+    <view ><text  bindtap='typeclick' data-ytpe="{{showstudent['number']}}"     decode="{{true}}" space="{{true}}">学号 ：{{showstudent['schoolnum']}}</text></view>
+    </view>
+    
+  </picker>
+  <view class="picker" ><text  bindtap='typeclick' data-ytpe="{{showstudent['number']}}"     decode="{{true}}" space="{{true}}">姓名 ：{{showstudent['name']}}</text></view>
+ 
+   <picker  value="{{studenttest}}" range="{{test}}" name="test" bindchange="test" name="test" class='pack1'  >
+    <view class="picker">
+    <view     ><text  bindtap='typeclick' data-ytpe="{{showstudent['number']}}"     decode="{{true}}" space="{{true}}">项目 ：</text>{{studenttest}}</view>
+    </view>
+  </picker>
+ <view class="section" style="margin-top: -50px;">
+
+    <input name="add" placeholder="在此输入成绩" class="add" name="mark"  bindinput="listeninput" value='{{marks}}'  type='text'/>
+  </view>
+   <button formType="submit" class='btn' bindtap='weice' type="primary" >未测</button>
+ <button formType="submit" class='btn' bindtap='zuobi' type="primary" style='margin-left:30px;'>作弊</button>
+</form>
+
+
+</view>
+</view>

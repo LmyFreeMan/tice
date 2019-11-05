@@ -1,0 +1,84 @@
+/* pages/login/login.wxss */
+
+.background-view {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin-top: 1px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
+.describ-item {
+  overflow: auto;
+   display: flex; 
+  width: 600rpx;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+   margin-left: 50px;
+}
+.footer
+{
+ font-style: italic;
+
+  border-top-style: solid;
+  border-top-width: 0.1ch;
+  position: fixed;
+ bottom: 0;
+   width: 100%;
+     text-align: center;
+     
+}
+.teacher
+{
+  color: white;
+text-align: center;
+font-size: 40px;
+  }
+  
+.form
+{
+
+
+height: 350px;
+border-radius: 25px;
+
+}
+.describ-item {
+  margin-left: 10px;
+  margin-top: 80px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.btn {
+  background-color: #fff;
+  width: 80%;
+  color: #00c4ff;
+  margin-top: px;
+}
+
+.btn-checked {
+  background-color: #88c4ff;
+}
+
+.input-view {
+  width: 100%;
+  color: black;
+  padding-left: 20rpx;
+  margin-right:-80px;
+  font-size:28px;
+  margin-top: 5px;
+  overflow:visible;
+}
+
+.login-icon {
+  width: 35rpx;
+  height: 33rpx;
+}
+
+.placeholder-style {
+  color: #fff;
+}

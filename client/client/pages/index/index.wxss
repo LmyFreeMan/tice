@@ -1,0 +1,217 @@
+/**index.wxss**/
+page {
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.write
+{
+  text-align: center;
+  height: 30px;
+  width: 80%;
+  margin: 0 auto;
+ 
+
+}
+.xuhao
+{
+/*font-size: 22px;*/
+font-size: 30px;
+background-color: darkgray;
+margin-top: 20px;
+width:40%;
+
+}
+.picker
+{
+  font-size: 30px;
+background-color: darkgray;
+margin-top: 20px;
+}
+.pick0
+{
+   margin-top: 20px;
+   font-size: 30px;
+  background-color: darkgrey;
+ /* font-size: 22px;*/
+}
+.pick2
+{
+   margin-top: 20px;
+  background-color: darkgrey;
+  /* font-size: 22px;*/
+  font-size: 30px;
+}
+.footer
+{
+ font-style: italic;
+ color: darkgray;
+  border-top-style: solid;
+  border-top-width: 0.1ch;
+  position: fixed;
+ bottom: 0;
+   width: 80%;
+     text-align: center;
+     
+}
+.pack1
+{
+  margin-top: 20px;
+  background-color: darkgrey;
+   font-size: 30px;
+   /* font-size: 22px; */
+}
+.containner
+{
+  height: 300px;
+  width: 80%;
+  margin: 0 auto;
+   
+    border-top: 0.1ch solid red;
+    
+}
+.section__title
+{
+  margin-top:50px;
+border-bottom:0.1ch solid;
+}
+.btn
+{
+  margin-top:30px;
+  width:40%;
+  margin-left: 10px;
+  border-radius: 5px;
+  float: left;
+
+}
+.add
+{
+  font-size: 30px;
+  margin-top:80px;
+  border-bottom: 0.1ch solid ;
+  height: 50px;
+  overflow: visible;
+  color: red;
+  text-align: center;
+
+}
+.userinfo, .uploader, .tunnel {
+    margin-top: 40rpx;
+    height: 140rpx;
+    width: 100%;
+    background: #FFF;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 300ms ease;
+}
+
+.userinfo-avatar {
+    width: 100rpx;
+    height: 100rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+    font-size: 32rpx;
+    color: #007AFF;
+    background-color: white; 
+}
+
+.userinfo-nickname::after {
+  border: none;
+}
+
+.uploader, .tunnel {
+    height: auto;
+    padding: 0 0 0 40rpx;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.uploader-text, .tunnel-text {
+    width: 100%;
+    line-height: 52px;
+    font-size: 34rpx;
+    color: #007AFF;
+}
+
+.uploader-container {
+    width: 100%;
+    height: 400rpx;
+    padding: 20rpx 20rpx 20rpx 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.uploader-image {
+    width: 100%;
+    height: 360rpx;
+}
+
+.tunnel {
+    padding: 0 0 0 40rpx;
+}
+
+.tunnel-text {
+    position: relative;
+    color: #222;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.tunnel-text:first-child {
+    border-top: none;
+}
+
+.tunnel-switch {
+    position: absolute;
+    right: 20rpx;
+    top: -2rpx;
+}
+
+.disable {
+    color: #888;
+}
+
+.service {
+    position: fixed;
+    right: 40rpx;
+    bottom: 40rpx;
+    width: 140rpx;
+    height: 140rpx;
+    border-radius: 50%;
+    background: linear-gradient(#007AFF, #0063ce);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    transition: all 300ms ease;
+}
+
+.service-button {
+    position: absolute;
+    top: 40rpx;
+}
+
+.service:active {
+    box-shadow: none;
+}
+
+.request-text {
+    padding: 20rpx 0;
+    font-size: 24rpx;
+    line-height: 36rpx;
+    word-break: break-all;
+}

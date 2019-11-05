@@ -1,0 +1,30 @@
+<!--pages/login/login.wxml-->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"  style='width:100%;height:150px; '>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="800" height="300px;" style="width: 100%;"/>
+    </swiper-item>
+  </block>
+</swiper>
+  
+<view class='background-view'>
+  <form bindsubmit='submitButton' bindreset='' style="margin-top: -200px;" class="form"> 
+  <view>
+  <view  class='teacher'>教工登录中心</view>
+   <view class='describ-item'>
+     <view style="width: 200px;"> <text style='color:red; font-size:30px;height:50px;' decode="{{true}}" space="{{true}}">工&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  号:</text></view>
+
+      <input class="input-view" placeholder-class='placeholder-style' name= "username" type='text' style="margin-left: -40px;"></input>
+    </view>
+   
+    <view class='describ-item'>
+     <view style="width: 200px;"> <text style='color:red; font-size:28px;height:50px;' decode="{{true}}" space="{{true}}">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 码:</text></view>
+
+      <input class="input-view"  placeholder-class='placeholder-style' name= "passWord" type='password' style="margin-left: -40px;"></input>
+    </view>
+    </view>
+    <button  form-type='submit' class='btn' hover-class='btn-checked'>登录</button>
+  </form>
+ 
+</view>

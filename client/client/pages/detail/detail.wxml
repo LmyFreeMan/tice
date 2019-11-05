@@ -1,0 +1,16 @@
+<view>
+<view >
+
+<view style='float:left;width:40%'>学号</view>
+<view style='float:left;width:40%'>姓名</view>
+<view style='float:left'>{{pro}}</view>
+
+<view wx:for="{{all}}">
+ <view style='float:left;width:40%'>{{all[index].schoolnum}}</view>
+<view style='float:left;width:40%'>{{all[index].name}}</view>
+<view style='float:left;width:%'>{{all[index].marks}}</view>
+</view>
+</view>
+</view>
+
+
